@@ -52,7 +52,7 @@
 <details>
   <summary>Contact</summary>
   <p align="center">
-    <a href="mailto:alexhraber@gmail.com">alexhraber(at)gmail(dot)com</a>
+    <a href="mailto:alexhraber@gmail.com">✦ email ✦</a>
   </p>
   <p align="center">
     <a href="https://github.com/sponsors/alexhraber">✦ sponsor ✦</a>
