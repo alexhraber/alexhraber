@@ -18,6 +18,10 @@
 </p>
 
 <p align="center">
+  Alex H. Raber is a governance‑first architect focused on deterministic, intent‑driven software delivery. He designs systems where reliability is engineered, not presumed, building frameworks like Decapod that align AI agents with human intent and enforce bounded, auditable execution. His work spans AI governance, cloud‑native infrastructure, CI/CD automation, observability, and security, delivering cost‑effective, high‑confidence platforms.
+</p>
+
+<p align="center">
   <a href="https://linkedin.com/in/alexhraber" style="text-decoration:none;">
     <span style="background:#555;padding:2px 6px;border-top-left-radius:3px;border-bottom-left-radius:3px;display:inline-flex;align-items:center;">
       <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" height="18" style="vertical-align:middle;"/>
