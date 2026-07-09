@@ -29,11 +29,11 @@
     </span>
   </a>
   <a href="https://x.com/raberhalex" style="text-decoration:none;margin-right:8px;">
-    <span style="background:#000000;color:#fff;padding:4px 10px;border-radius:4px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);">
-      <img src="https://img.shields.io/static/v1?label=&color=000000&style=flat&logo=x&logoColor=white" height="20" style="margin-right:4px;vertical-align:middle;"/>
-      @raberhalex
+    <span style="background:#000;padding:4px 8px;border-top-left-radius:4px;border-bottom-left-radius:4px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X" height="20" style="vertical-align:middle;"/>
     </span>
-  </a>
+    <span style="background:#000;color:#fff;padding:4px 10px;border-top-right-radius:4px;border-bottom-right-radius:4px;display:inline-flex;align-items:center;font-weight:600;box-shadow:0 2px 4px rgba(0,0,0,0.2);">@raberhalex</span>
+</a>
   <a href="https://github.com/DecapodLabs/decapod" style="text-decoration:none;margin-right:8px;">
     <span style="background:#ff7700;color:#fff;padding:4px 10px;border-radius:4px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);">
       🦀
