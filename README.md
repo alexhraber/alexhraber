@@ -20,7 +20,7 @@
 </p>
 <p align="center"><a href="https://ko-fi.com/decapodlabs"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko‑fi Decapod" /></a></p>
 
-
+<h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ tools</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/-Rust-dca282?style=flat&logo=rust&logoColor=black" />
@@ -44,7 +44,7 @@
 <h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ domains</h3>
 
 <p align="center">
-  <span style="color:#00ff00;">agents · governance · eBPF · supply-chain security · AI systems · distributed systems · kernel engineering · NixOS · CI/CD · Cloud Architecture · Kubernetes</span>
+  <span style="color:#00ff00;">agents · ci/cd · cloud · containers · distributed systems · ebpf · governance · kernel engineering · linux · security · sre</span>
 </p>
 
 <hr style="border-top:2px solid #00ff00;">
