@@ -30,7 +30,7 @@
   </a>
   <a href="https://x.com/raberhalex" style="text-decoration:none;margin-right:8px;">
     <span style="background:#000000;color:#fff;padding:4px 10px;border-radius:4px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);">
-      <img src="https://img.shields.io/static/v1?label=&message=X&color=000000&style=flat&logo=x&logoColor=white" height="20" style="margin-right:4px;vertical-align:middle;"/>
+      <img src="https://img.shields.io/static/v1?label=&color=000000&style=flat&logo=x&logoColor=white" height="20" style="margin-right:4px;vertical-align:middle;"/>
       @raberhalex
     </span>
   </a>
