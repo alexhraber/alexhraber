@@ -29,11 +29,11 @@
   <img src="https://img.shields.io/badge/-Nix-5277C3?style=flat&logo=nixos&logoColor=white" />
   <img src="https://img.shields.io/badge/-eBPF-black?style=flat&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/-Bazel-43A047?style=flat&logo=bazel&logoColor=white" />
-  <a href="https://www.tensorflow.org"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/TensorFlow_Logo.svg" alt="TensorFlow" height="30"/> 🧠</a>
-  <a href="https://github.com/google/jax"><img src="https://raw.githubusercontent.com/google/jax/main/docs/_static/jax-logo.png" alt="JAX" height="30"/> ⚡</a>
-  <a href="https://github.com/apple/mlx"><img src="https://raw.githubusercontent.com/apple/mlx/main/docs/_static/mlx-logo.svg" alt="MLX" height="30"/> 🦙</a>
-  <a href="https://www.terraform.io"><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Terraform_Logo.svg" alt="Terraform" height="30"/> 🏗️</a>
-  <a href="https://aws.amazon.com"><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/AWS_Logo.svg" alt="AWS" height="30"/> ☁️</a>
+  <a href="https://www.tensorflow.org"><img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow" height="30"/> 🧠</a>
+  <a href="https://github.com/google/jax"><img src="https://img.shields.io/badge/-JAX-FFBEB1?style=flat&logo=python&logoColor=white" alt="JAX" height="30"/> ⚡</a>
+  <a href="https://github.com/apple/mlx"><img src="https://img.shields.io/badge/-MLX-007ACC?style=flat&logo=none&logoColor=white" alt="MLX" height="30"/> 🦙</a>
+  <a href="https://www.terraform.io"><img src="https://img.shields.io/badge/-Terraform-623CE4?style=flat&logo=terraform&logoColor=white" alt="Terraform" height="30"/> 🏗️</a>
+  <a href="https://aws.amazon.com"><img src="https://img.shields.io/badge/-AWS-FF9900?style=flat&logo=amazon-aws&logoColor=white" alt="AWS" height="30"/> ☁️</a>
 </p>
 
 <hr style="border-top:2px solid #00ff00;">
