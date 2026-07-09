@@ -45,7 +45,7 @@
 <h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ domains</h3>
 
 <p align="center">
-  <span style="color:#00ff00;">agents · ci/cd · cloud · containers · distributed systems · ebpf · governance · kernel engineering · linux · security · sre</span>
+  <span style="color:#00ff00;">agents · ci/cd · cloud · containers · distributed systems · governance · kernel engineering · linux · security · service mesh · sre</span>
 </p>
 
 <hr style="border-top:2px solid #00ff00;">
