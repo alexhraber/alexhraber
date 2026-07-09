@@ -22,9 +22,24 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/alexhraber"><img src="https://img.shields.io/badge/LinkedIn-in%2Falexhraber-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://x.com/alexhraber"><img src="https://img.shields.io/badge/X-%40alexhraber-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <a href="https://github.com/DecapodLabs/decapod"><img src="https://img.shields.io/badge/🦀-DecapodLabs%2Fdecapod-orange?style=for-the-badge" alt="Decapod" /></a>
+  <a href="https://linkedin.com/in/alexhraber" style="text-decoration:none;margin-right:12px;">
+    <span style="display:inline-flex;align-items:center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" height="20" style="vertical-align:middle;"/>
+      <span style="background:#0A66C2;color:#fff;padding:4px 12px;border-radius:20px;display:inline-flex;align-items:center;margin-left:4px;box-shadow:0 2px 4px rgba(0,0,0,0.2);">in/alexhraber</span>
+    </span>
+  </a>
+  <a href="https://x.com/alexhraber" style="text-decoration:none;margin-right:12px;">
+    <span style="display:inline-flex;align-items:center;">
+      <img src="https://x.com/favicon.ico" alt="X" height="20" style="vertical-align:middle;"/>
+      <span style="background:#000;color:#fff;padding:4px 12px;border-radius:20px;display:inline-flex;align-items:center;margin-left:4px;box-shadow:0 2px 4px rgba(0,0,0,0.2);">@alexhraber</span>
+    </span>
+  </a>
+  <a href="https://github.com/DecapodLabs/decapod" style="text-decoration:none;margin-right:12px;">
+    <span style="display:inline-flex;align-items:center;">
+      <span style="font-size:20px;vertical-align:middle;">🦀</span>
+      <span style="background:#ff7700;color:#fff;padding:4px 12px;border-radius:20px;display:inline-flex;align-items:center;margin-left:4px;box-shadow:0 2px 4px rgba(0,0,0,0.2);">DecapodLabs/decapod</span>
+    </span>
+  </a>
 </p>
 
 ---
