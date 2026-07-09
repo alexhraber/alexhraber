@@ -25,21 +25,9 @@
   <a href="https://linkedin.com/in/alexhraber" style="text-decoration:none;margin-right:12px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" height="20" style="vertical-align:middle;"/>
   </a>
-<a href="https://linkedin.com/in/alexhraber" style="text-decoration:none;margin-right:12px;">
-    <span style="background:#0A66C2;color:#fff;padding:4px 12px;border-radius:20px;display:inline-block;box-shadow:0 2px 4px rgba(0,0,0,0.2);">in/alexhraber</span>
-</a>
-<a href="https://x.com/alexhraber" style="text-decoration:none;margin-right:12px;">
+  <a href="https://x.com/alexhraber" style="text-decoration:none;margin-right:12px;">
     <img src="https://x.com/favicon.ico" alt="X" height="20" style="vertical-align:middle;"/>
-</a>
-<a href="https://x.com/alexhraber" style="text-decoration:none;margin-right:12px;">
-    <span style="background:#000;color:#fff;padding:4px 12px;border-radius:20px;display:inline-block;box-shadow:0 2px 4px rgba(0,0,0,0.2);">@alexhraber</span>
-</a>
-<a href="https://github.com/DecapodLabs/decapod" style="text-decoration:none;margin-right:12px;">
-    <span style="font-size:20px;vertical-align:middle;">🦀</span>
-</a>
-<a href="https://github.com/DecapodLabs/decapod" style="text-decoration:none;">
-    <span style="background:#ff7700;color:#fff;padding:4px 12px;border-radius:20px;display:inline-block;box-shadow:0 2px 4px rgba(0,0,0,0.2);">DecapodLabs/decapod</span>
-</a>
+  </a>
 </p>
 
 <hr style="border-top:2px solid #00ff00;">
