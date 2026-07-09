@@ -25,7 +25,7 @@
   <a href="https://linkedin.com/in/alexhraber" style="text-decoration:none;margin-right:12px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" height="20" style="vertical-align:middle;"/>
   </a>
-  <a href="https://x.com/alexhraber" style="text-decoration:none;margin-right:12px;">
+  <a href="https://x.com/raberhalex" style="text-decoration:none;margin-right:12px;">
     <img src="https://x.com/favicon.ico" alt="X" height="20" style="vertical-align:middle;"/>
   </a>
 </p>
