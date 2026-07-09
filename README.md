@@ -116,6 +116,9 @@
 </p>
 
 <p align="center">
+  <span style="color:#00ff00;">* **Email**: alexhraber(at)gmail(dot)com</span>
+</p>
+<p align="center">
   <span style="color:#00ff00;">
     <a href="https://github.com/sponsors/alexhraber">✦ sponsor ✦</a>
   </span>
