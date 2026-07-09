@@ -22,24 +22,24 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/alexhraber" style="text-decoration:none;margin-right:12px;">
-    <span style="background:#0A66C2;color:#fff;padding:4px 10px;border-radius:4px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" height="20" style="margin-right:4px;vertical-align:middle;"/>
-      in/alexhraber
-    </span>
-  </a>
-  <a href="https://x.com/raberhalex" style="text-decoration:none;margin-right:12px;">
-    <span style="background:#000;padding:4px 8px;border-top-left-radius:4px;border-bottom-left-radius:4px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);">
-      <img src="https://x.com/favicon.ico" alt="X" height="20" style="vertical-align:middle;"/>
-    </span>
-    <span style="background:#000;color:#fff;padding:4px 10px;border-top-right-radius:4px;border-bottom-right-radius:4px;display:inline-flex;align-items:center;font-weight:600;box-shadow:0 2px 4px rgba(0,0,0,0.2);">@raberhalex</span>
+<a href="https://linkedin.com/in/alexhraber" style="text-decoration:none;margin-right:12px;">
+  <span style="background:#0A66C2;color:#fff;padding:4px 12px;border-radius:20px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);gap:4px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" height="20" style="vertical-align:middle;"/>
+    in/alexhraber
+  </span>
 </a>
-  <a href="https://github.com/DecapodLabs/decapod" style="text-decoration:none;margin-right:12px;">
-    <span style="background:#ff7700;color:#fff;padding:4px 10px;border-radius:4px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);">
-      🦀
-      DecapodLabs/decapod
-    </span>
-  </a>
+<a href="https://x.com/alexhraber" style="text-decoration:none;margin-right:12px;">
+  <span style="background:#000;color:#fff;padding:4px 12px;border-radius:20px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);gap:4px;">
+    <img src="https://x.com/favicon.ico" alt="X" height="20" style="vertical-align:middle;"/>
+    @alexhraber
+  </span>
+</a>
+<a href="https://github.com/DecapodLabs/decapod" style="text-decoration:none;margin-right:12px;">
+  <span style="background:#ff7700;color:#fff;padding:4px 12px;border-radius:20px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);gap:4px;">
+    🦀
+    DecapodLabs/decapod
+  </span>
+</a>
 </p>
 
 ---
