@@ -22,23 +22,23 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/alexhraber" style="text-decoration:none;">
-    <span style="background:#555;padding:2px 6px;border-top-left-radius:3px;border-bottom-left-radius:3px;display:inline-flex;align-items:center;">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" height="18" style="vertical-align:middle;"/>
+  <a href="https://linkedin.com/in/alexhraber" style="text-decoration:none;margin-right:8px;">
+    <span style="background:#0A66C2;color:#fff;padding:4px 10px;border-radius:4px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" height="20" style="margin-right:4px;vertical-align:middle;"/>
+      in/alexhraber
     </span>
-    <span style="background:#0A66C2;color:#fff;padding:2px 6px;border-top-right-radius:3px;border-bottom-right-radius:3px;display:inline-flex;align-items:center;font-weight:600;">in/alexhraber</span>
   </a>
-  <a href="https://x.com/raberhalex" style="text-decoration:none;">
-    <span style="background:#555;padding:2px 6px;border-top-left-radius:3px;border-bottom-left-radius:3px;display:inline-flex;align-items:center;">
-      <img src="https://img.shields.io/static/v1?label=&message=X&color=000000&style=flat&logo=x&logoColor=white" alt="X" height="18" style="vertical-align:middle;"/>
+  <a href="https://x.com/raberhalex" style="text-decoration:none;margin-right:8px;">
+    <span style="background:#000000;color:#fff;padding:4px 10px;border-radius:4px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);">
+      <img src="https://img.shields.io/static/v1?label=&message=X&color=000000&style=flat&logo=x&logoColor=white" alt="X" height="20" style="margin-right:4px;vertical-align:middle;"/>
+      @raberhalex
     </span>
-    <span style="background:#000000;color:#fff;padding:2px 6px;border-top-right-radius:3px;border-bottom-right-radius:3px;display:inline-flex;align-items:center;font-weight:600;">@raberhalex</span>
   </a>
-  <a href="https://github.com/DecapodLabs/decapod" style="text-decoration:none;">
-    <span style="background:#555;padding:2px 6px;border-top-left-radius:3px;border-bottom-left-radius:3px;display:inline-flex;align-items:center;">
+  <a href="https://github.com/DecapodLabs/decapod" style="text-decoration:none;margin-right:8px;">
+    <span style="background:#ff7700;color:#fff;padding:4px 10px;border-radius:4px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);">
       🦀
+      DecapodLabs/decapod
     </span>
-    <span style="background:#ff7700;color:#fff;padding:2px 6px;border-top-right-radius:3px;border-bottom-right-radius:3px;display:inline-flex;align-items:center;font-weight:600;">DecapodLabs/decapod</span>
   </a>
   <a href="https://github.com/alexhraber?tab=followers"><img src="https://img.shields.io/github/followers/alexhraber?style=flat&color=blue&labelColor=gray" /></a>
 </p>
