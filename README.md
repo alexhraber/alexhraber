@@ -29,10 +29,10 @@
   <img src="https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white" />
   <img src="./assets/badges/jax.svg" />
   <img src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" />
-  <img src="./assets/badges/mlx.svg" />
+  <img src="https://img.shields.io/badge/-mlx-007ACC?style=flat&logo=apple&logoColor=white" />
   <img src="https://img.shields.io/badge/-Nix-5277C3?style=flat&logo=nixos&logoColor=white" />
   <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Rust-dca282?style=flat&logo=rust&logoColor=black" />
+  <img src="https://img.shields.io/badge/-Rust-dca282?style=flat&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/-Terraform-623CE4?style=flat&logo=terraform&logoColor=white" />
   <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
