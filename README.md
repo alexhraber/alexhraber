@@ -11,10 +11,10 @@
 
 </div>
 
----
+<hr style="border-top:2px solid #00ff00;">
 
 <p align="center">
-  <samp>builder of AI systems and tools · CxO @ Decapod Labs · PNW</samp>
+  <span style="color:#00ff00;">builder of AI systems and tools · CxO @ Decapod Labs · PNW</span>
 </p>
 
 <p align="center">
@@ -42,9 +42,9 @@
 </a>
 </p>
 
----
+<hr style="border-top:2px solid #00ff00;">
 
-### ✦ pinned works
+<h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ pinned works</h3>
 
 <table>
 <tr>
@@ -81,20 +81,20 @@
 </tr>
 </table>
 
----
+<hr style="border-top:2px solid #00ff00;">
 
-### ✦ more projects
+<h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ more projects</h3>
 
 | repo | description |
-|---|---|
+|<hr style="border-top:2px solid #00ff00;">|<hr style="border-top:2px solid #00ff00;">|
 | **[nixos](https://github.com/alexhraber/nixos)** | Declarative NixOS configurations — my systems, codified · `Nix` ⭐ 1 |
 | **[agentic-sdlc-intake-attack](https://github.com/alexhraber/agentic-sdlc-intake-attack)** | Adversarial intake evaluation for agentic SDLC pipelines · `Python` |
 | **[metaplay-fake-interview-supply-chain-incident](https://github.com/alexhraber/metaplay-fake-interview-supply-chain-incident)** | Defensive deep-dive into a staged npm supply-chain attack: lifecycle hooks, env exfiltration, C2 polling, identity burn · `Jupyter Notebook` |
 | **[go-scaling](https://github.com/alexhraber/go-scaling)** | Patterns and benchmarks for scaling Go services · `Go` |
 
----
+<hr style="border-top:2px solid #00ff00;">
 
-### ✦ craft
+<h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ craft</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/-Rust-dca282?style=flat&logo=rust&logoColor=black" />
@@ -107,22 +107,22 @@
   <img src="https://img.shields.io/badge/-Bazel-43A047?style=flat&logo=bazel&logoColor=white" />
 </p>
 
----
+<hr style="border-top:2px solid #00ff00;">
 
-### ✦ domains
+<h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ domains</h3>
 
 <p align="center">
-  <samp>agents · governance · eBPF · supply-chain security · AI systems · distributed systems · kernel engineering · NixOS</samp>
+  <span style="color:#00ff00;">agents · governance · eBPF · supply-chain security · AI systems · distributed systems · kernel engineering · NixOS</span>
 </p>
 
----
+<hr style="border-top:2px solid #00ff00;">
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/alexhraber/alexhraber/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </p>
 
 <p align="center">
-  <samp>
+  <span style="color:#00ff00;">
     <a href="https://github.com/sponsors/alexhraber">✦ sponsor ✦</a>
-  </samp>
+  </span>
 </p>
