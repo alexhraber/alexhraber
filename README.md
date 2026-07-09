@@ -61,7 +61,7 @@
   <td width="50%">
 
 **[builddeck](https://github.com/alexhraber/builddeck)**
-<br><sup>Code review & CI intelligence layer.</sup>
+<br><sup>Buildkite terminal flight deck – an interactive, live‑updating TUI for monitoring pipelines, builds, jobs, and artifacts.</sup>
 <br><sub>`Go` · ⭐ 1</sub>
 
   </td>
