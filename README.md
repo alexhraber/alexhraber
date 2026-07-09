@@ -55,9 +55,9 @@
   </td>
   <td width="50%">
 
-**[nixos](https://github.com/alexhraber/nixos)**
-<br><sup>Declarative NixOS configurations — my systems, codified.</sup>
-<br><sub>`Nix` · ⭐ 1</sub>
+**[builddeck](https://github.com/alexhraber/builddeck)**
+<br><sup>Code review & CI intelligence layer.</sup>
+<br><sub>`Go` · ⭐ 1</sub>
 
   </td>
 </tr>
@@ -69,7 +69,7 @@
 
 | repo | description |
 |---|---|
-| **[builddeck](https://github.com/alexhraber/builddeck)** | Code review & CI intelligence layer · `Go` ⭐ 1 |
+| **[nixos](https://github.com/alexhraber/nixos)** | Declarative NixOS configurations — my systems, codified · `Nix` ⭐ 1 |
 | **[agentic-sdlc-intake-attack](https://github.com/alexhraber/agentic-sdlc-intake-attack)** | Adversarial intake evaluation for agentic SDLC pipelines · `Python` |
 | **[metaplay-fake-interview-supply-chain-incident](https://github.com/alexhraber/metaplay-fake-interview-supply-chain-incident)** | Defensive deep-dive into a staged npm supply-chain attack: lifecycle hooks, env exfiltration, C2 polling, identity burn · `Jupyter Notebook` |
 | **[go-scaling](https://github.com/alexhraber/go-scaling)** | Patterns and benchmarks for scaling Go services · `Go` |
