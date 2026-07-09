@@ -18,9 +18,9 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/alexhraber"><img src="https://img.shields.io/badge/LinkedIn-in%2Falexhraber-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/alexhraber"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
   <a href="https://x.com/raberhalex"><img src="https://img.shields.io/badge/X-@raberhalex-000000?style=flat&logo=x&logoColor=white" /></a>
-  <a href="https://github.com/DecapodLabs/decapod"><img src="https://img.shields.io/badge/Decapod-🦀-orange?style=flat" /></a>
+  <a href="https://github.com/DecapodLabs/decapod"><img src="https://img.shields.io/badge/🦀-DecapodLabs%2Fdecapod-orange?style=flat" /></a>
   <a href="https://github.com/alexhraber?tab=followers"><img src="https://img.shields.io/github/followers/alexhraber?style=flat&color=blue" /></a>
 </p>
 
