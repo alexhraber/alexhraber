@@ -22,9 +22,24 @@
 </p>
 
 <p align="center">
-  
-  <a href="https://x.com/raberhalex"><img src="https://img.shields.io/badge/-@raberhalex-orange?style=flat&logo=x&logoColor=white&labelColor=gray" /></a>
-  <a href="https://github.com/DecapodLabs/decapod"><img src="https://img.shields.io/badge/🦀-DecapodLabs%2Fdecapod-orange?style=flat&labelColor=gray" /></a>
+  <a href="https://linkedin.com/in/alexhraber" style="text-decoration:none;">
+    <span style="background:#555;padding:2px 6px;border-top-left-radius:3px;border-bottom-left-radius:3px;display:inline-flex;align-items:center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" height="18" style="vertical-align:middle;"/>
+    </span>
+    <span style="background:#0A66C2;color:#fff;padding:2px 6px;border-top-right-radius:3px;border-bottom-right-radius:3px;display:inline-flex;align-items:center;font-weight:600;">in/alexhraber</span>
+  </a>
+  <a href="https://x.com/raberhalex" style="text-decoration:none;">
+    <span style="background:#555;padding:2px 6px;border-top-left-radius:3px;border-bottom-left-radius:3px;display:inline-flex;align-items:center;">
+      <img src="https://img.shields.io/static/v1?label=&message=X&color=000000&style=flat&logo=x&logoColor=white" alt="X" height="18" style="vertical-align:middle;"/>
+    </span>
+    <span style="background:#000000;color:#fff;padding:2px 6px;border-top-right-radius:3px;border-bottom-right-radius:3px;display:inline-flex;align-items:center;font-weight:600;">@raberhalex</span>
+  </a>
+  <a href="https://github.com/DecapodLabs/decapod" style="text-decoration:none;">
+    <span style="background:#555;padding:2px 6px;border-top-left-radius:3px;border-bottom-left-radius:3px;display:inline-flex;align-items:center;">
+      🦀
+    </span>
+    <span style="background:#ff7700;color:#fff;padding:2px 6px;border-top-right-radius:3px;border-bottom-right-radius:3px;display:inline-flex;align-items:center;font-weight:600;">DecapodLabs/decapod</span>
+  </a>
   <a href="https://github.com/alexhraber?tab=followers"><img src="https://img.shields.io/github/followers/alexhraber?style=flat&color=blue&labelColor=gray" /></a>
 </p>
 
