@@ -18,7 +18,6 @@
 <p align="center">
   Alex H. Raber is a governance‑first architect focused on deterministic, intent‑driven software delivery. He designs systems where reliability is engineered, not presumed, building frameworks like Decapod that align AI agents with human intent and enforce bounded, auditable execution. His work spans AI governance, cloud‑native infrastructure, CI/CD automation, observability, and security, delivering cost‑effective, high‑confidence platforms.
 </p>
-<p align="center"><a href="https://ko-fi.com/decapodlabs"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko‑fi Decapod" /></a></p>
 
 <hr style="border-top:2px solid #00ff00;">
 
@@ -49,6 +48,8 @@
 </p>
 
 <hr style="border-top:2px solid #00ff00;">
+
+<p align="center"><a href="https://ko-fi.com/decapodlabs"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko‑fi Decapod" /></a></p>
 
 <details>
   <summary>Contact</summary>
