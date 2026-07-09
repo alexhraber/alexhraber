@@ -30,7 +30,7 @@
   </a>
   <a href="https://x.com/raberhalex" style="text-decoration:none;margin-right:12px;">
     <span style="background:#000;padding:4px 8px;border-top-left-radius:4px;border-bottom-left-radius:4px;display:inline-flex;align-items:center;box-shadow:0 2px 4px rgba(0,0,0,0.2);">
-      <img src="https://abs.twimg.com/responsive-web/client-web/icon-ios.b1fc7275.png" alt="X" height="20" style="vertical-align:middle;"/>
+      <img src="https://x.com/favicon.ico" alt="X" height="20" style="vertical-align:middle;"/>
     </span>
     <span style="background:#000;color:#fff;padding:4px 10px;border-top-right-radius:4px;border-bottom-right-radius:4px;display:inline-flex;align-items:center;font-weight:600;box-shadow:0 2px 4px rgba(0,0,0,0.2);">@raberhalex</span>
 </a>
