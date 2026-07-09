@@ -20,6 +20,8 @@
 </p>
 <p align="center"><a href="https://ko-fi.com/decapodlabs"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko‑fi Decapod" /></a></p>
 
+<hr style="border-top:2px solid #00ff00;">
+
 <h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ tools</h3>
 
 <p align="center">
@@ -29,7 +31,7 @@
   <img src="https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white" />
   <img src="./assets/badges/jax.svg" />
   <img src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/-mlx-007ACC?style=flat&logo=apple&logoColor=white" />
+  <img src="https://img.shields.io/badge/-MLX-007ACC?style=flat&logo=apple&logoColor=white" />
   <img src="https://img.shields.io/badge/-Nix-5277C3?style=flat&logo=nixos&logoColor=white" />
   <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/-Rust-dca282?style=flat&logo=rust&logoColor=white" />
