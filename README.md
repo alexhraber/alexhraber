@@ -14,7 +14,7 @@
 ---
 
 <p align="center">
-  <samp>builder of systems and tools · CxO @ Decapod Labs · PNW</samp>
+  <samp>builder of AI systems and tools · CxO @ Decapod Labs · PNW</samp>
 </p>
 
 <p align="center">
