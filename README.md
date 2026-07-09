@@ -27,9 +27,13 @@
   <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/-Nix-5277C3?style=flat&logo=nixos&logoColor=white" />
-  <img src="https://img.shields.io/badge/-CUDA-76B900?style=flat&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/-eBPF-black?style=flat&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/-Bazel-43A047?style=flat&logo=bazel&logoColor=white" />
+  <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" /> 🧠
+  <img src="https://img.shields.io/badge/-JAX-FFBEB1?style=flat&logo=python&logoColor=white" /> ⚡
+  <img src="https://img.shields.io/badge/-MLX-007ACC?style=flat&logo=python&logoColor=white" /> 🦙
+  <img src="https://img.shields.io/badge/-Terraform-623CE4?style=flat&logo=terraform&logoColor=white" /> 🏗️
+  <img src="https://img.shields.io/badge/-AWS-FF9900?style=flat&logo=amazon-aws&logoColor=white" /> ☁️
 </p>
 
 <hr style="border-top:2px solid #00ff00;">
