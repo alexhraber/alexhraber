@@ -18,7 +18,12 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/alexhraber"><img src="https://img.shields.io/badge/LinkedIn-in%2Falexhraber-0A66C2?style=flat&logo=linkedin&logoColor=white&labelColor=gray" height="20" style="vertical-align:middle;"/></a>
+  <a href="https://linkedin.com/in/alexhraber" style="text-decoration:none;">
+  <span style="background:#6e6e6e;padding:2px 6px;border-top-left-radius:3px;border-bottom-left-radius:3px;display:inline-flex;align-items:center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" height="18" style="vertical-align:middle;"/>
+  </span>
+  <span style="background:#0A66C2;color:#fff;padding:2px 6px;border-top-right-radius:3px;border-bottom-right-radius:3px;display:inline-flex;align-items:center;font-weight:600;">in/alexhraber</span>
+</a>
   <a href="https://x.com/raberhalex"><img src="https://img.shields.io/badge/-@raberhalex-000000?style=flat&logo=x&logoColor=white&labelColor=gray" /></a>
   <a href="https://github.com/DecapodLabs/decapod"><img src="https://img.shields.io/badge/🦀-DecapodLabs%2Fdecapod-orange?style=flat&labelColor=gray" /></a>
   <a href="https://github.com/alexhraber?tab=followers"><img src="https://img.shields.io/github/followers/alexhraber?style=flat&color=blue&labelColor=gray" /></a>
