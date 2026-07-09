@@ -107,19 +107,13 @@
 
 <h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ commit history</h3>
 <p align="center">
-  <a href="https://github.com/alexhraber/alexhraber/commits/master"><img src="https://img.shields.io/github/commit-activity/m/alexhraber/alexhraber?style=for-the-badge" alt="Commit activity" /></a>
+  <img src="https://github-readme-stats.vercel.app/api?username=alexhraber&show_icons=true&theme=transparent" alt="GitHub stats" />
 </p>
 
 <h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ activity diamond</h3>
-<table align="center">
-<tr><td></td><td><a href="https://github.com/alexhraber/alexhraber/issues"><img src="https://img.shields.io/github/issues/alexhraber/alexhraber?style=for-the-badge" alt="Issues" /></a></td><td></td></tr>
-<tr>
-  <td><a href="https://github.com/alexhraber/alexhraber/discussions"><img src="https://img.shields.io/github/discussions/alexhraber/alexhraber?style=for-the-badge" alt="Discussions" /></a></td>
-  <td><a href="https://github.com/alexhraber/alexhraber"><img src="https://img.shields.io/github/commit-activity/m/alexhraber/alexhraber?style=for-the-badge" alt="Commits" /></a></td>
-  <td><a href="https://github.com/alexhraber/alexhraber/pulls"><img src="https://img.shields.io/github/issues-pr/alexhraber/alexhraber?style=for-the-badge" alt="PRs" /></a></td>
-</tr>
-<tr><td></td><td><a href="https://github.com/alexhraber/alexhraber"><img src="https://img.shields.io/github/stars/alexhraber/alexhraber?style=for-the-badge" alt="Stars" /></a></td><td></td></tr>
-</table>
+<p align="center">
+  <img src="https://activity-graph.herokuapp.com/graph?username=alexhraber&bg_color=0a0a0a&color=00ff00&line=00ff00&point=00ff00" alt="Activity graph" />
+</p>
 
 <p align="center">
   <span style="color:#00ff00;">
