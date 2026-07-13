@@ -13,7 +13,7 @@
 
 <pre>
   ┌───────────────────────────────────────────────────────────────┐
-  │  engineer · founder · systems architect · security researcher  │
+  │  engineer · founder · researcher  │
   └───────────────────────────────────────────────────────────────┘
 </pre>
 
