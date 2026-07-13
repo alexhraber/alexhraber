@@ -46,7 +46,7 @@
 
 <hr style="border-top:2px solid #00ff00;">
 
-<h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ security research</h3>
+<h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ research</h3>
 
 <p align="center">
   <a href="https://decapodlabs.github.io/accountable-agentic-execution/">Accountable Agentic Execution</a>
