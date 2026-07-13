@@ -89,6 +89,9 @@
 <details>
   <summary>Contact</summary>
   <p align="center">
+    <a href="./assets/Alex%20Raber%20Resume%20(5-15-2026).pdf">✦ resume ✦</a>
+  </p>
+  <p align="center">
     <a href="mailto:alexhraber@gmail.com">✦ email ✦</a>
   </p>
   <p align="center">
