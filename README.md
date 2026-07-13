@@ -48,13 +48,11 @@
 
 <h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ research</h3>
 
-<p align="center">
-  <a href="https://decapodlabs.github.io/accountable-agentic-execution/">Accountable Agentic Execution</a>
-  ·
-  <a href="https://alexhraber.github.io/metaplay-fake-interview-supply-chain-incident/">Metaplay — fake‑interview supply‑chain attack</a>
-  ·
-  <a href="https://alexhraber.github.io/agentic-sdlc-intake-attack/">Agentic SDLC collaboration‑plane injection</a>
-</p>
+<ul style="list-style-position:inside;padding-left:0;">
+  <li><a href="https://decapodlabs.github.io/accountable-agentic-execution/">Accountable Agentic Execution</a></li>
+  <li><a href="https://alexhraber.github.io/metaplay-fake-interview-supply-chain-incident/">Metaplay — fake‑interview supply‑chain attack</a></li>
+  <li><a href="https://alexhraber.github.io/agentic-sdlc-intake-attack/">Agentic SDLC collaboration‑plane injection</a></li>
+</ul>
 
 <hr style="border-top:2px solid #00ff00;">
 
