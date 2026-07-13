@@ -64,35 +64,19 @@
   </tr>
 </table>
 
-<pre>
-  ┌───────────────────────────────────────────────────────────────┐
-  │  $ cat projects                                               │
-  └───────────────────────────────────────────────────────────────┘
-</pre>
+<hr style="border-top:2px solid #00ff00;">
 
-| Project | Description |
-|---------|-------------|
-| [**Decapod**](https://github.com/DecapodLabs/decapod) | Repo-native governance kernel — natural-language intent → bounded, proof-backed execution across AI agent fleets. |
-| [**FlowHawk**](https://github.com/alexhraber/flowhawk) | Real-time eBPF network security monitor with AI-driven threat detection at 100Gbps+. |
-| [**Builddeck**](https://github.com/alexhraber/builddeck) | Live-updating terminal UI for monitoring Buildkite pipelines, builds, jobs, and artifacts. |
-| [**Tensors to Consciousness**](https://github.com/alexhraber/tensors-to-consciousness) | Mathematical foundations of AI/ML: from tensors to consciousness. |
+<h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ security research</h3>
 
-<pre>
-  ┌───────────────────────────────────────────────────────────────┐
-  │  $ cat security                                               │
-  └───────────────────────────────────────────────────────────────┘
-</pre>
+<p align="center">
+  <a href="https://alexhraber.github.io/metaplay-fake-interview-supply-chain-incident/">Metaplay — fake‑interview supply‑chain attack</a>
+  ·
+  <a href="https://alexhraber.github.io/agentic-sdlc-intake-attack/">Agentic SDLC collaboration‑plane injection</a>
+</p>
 
-| Writeup | Description |
-|---------|-------------|
-| [**Metaplay**](https://alexhraber.github.io/metaplay-fake-interview-supply-chain-incident/) | Fake-interview supply-chain attack — npm lifecycle execution and staged JavaScript payload. |
-| [**Agentic SDLC Injection**](https://alexhraber.github.io/agentic-sdlc-intake-attack/) | Collaboration-plane injection — issue comment artifact smuggling against autonomous coding agents. |
+<hr style="border-top:2px solid #00ff00;">
 
-<pre>
-  ┌───────────────────────────────────────────────────────────────┐
-  │  $ cat tools                                                   │
-  └───────────────────────────────────────────────────────────────┘
-</pre>
+<h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ tools</h3>
 
 <p align="center">
   <img src="./assets/badges/aws.svg" />
@@ -110,20 +94,24 @@
   <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
 </p>
 
-<pre>
-  ┌───────────────────────────────────────────────────────────────┐
-  │  $ cat contact                                                │
-  └───────────────────────────────────────────────────────────────┘
-</pre>
+<hr style="border-top:2px solid #00ff00;">
+
+<h3 style="background:#00ff00;color:#000;padding:4px;border-radius:4px;">✦ domains</h3>
 
 <p align="center">
-  <a href="mailto:alexhraber@gmail.com">email</a>
-  ·
-  <a href="https://github.com/sponsors/alexhraber">sponsor</a>
-  ·
-  <a href="https://ko-fi.com/decapodlabs">ko-fi</a>
-  ·
-  <a href="https://linkedin.com/in/alexhraber">linkedin</a>
-  ·
-  <a href="https://x.com/raberhalex">x</a>
+  <span style="color:#00ff00;">agents · ci/cd · cloud · containers · distributed systems · governance · kernel engineering · linux · security · service mesh · sre</span>
 </p>
+
+<hr style="border-top:2px solid #00ff00;">
+
+<p align="center"><a href="https://ko-fi.com/decapodlabs"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko‑fi Decapod" /></a></p>
+
+<details>
+  <summary>Contact</summary>
+  <p align="center">
+    <a href="mailto:alexhraber@gmail.com">✦ email ✦</a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/sponsors/alexhraber">✦ sponsor ✦</a>
+  </p>
+</details>
