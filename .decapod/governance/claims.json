@@ -1,0 +1,244 @@
+{
+  "$schema": "https://decapod.dev/schemas/research-claims-ledger-1.0.0.schema.json",
+  "schema_version": "1.0.0",
+  "kind": "research_claims_ledger",
+  "ledger_id": "alexhraber-decapod-environment-refresh",
+  "title": "Decapod environment refresh and governed publication",
+  "purpose": "Record the falsifiable claim and evidence that the refreshed Decapod environment can validate and publish this profile repository.",
+  "authority": {
+    "owner": "alexhraber",
+    "source_issue": "https://github.com/DecapodLabs/decapod/issues/1024",
+    "status": "active",
+    "created_at": "2026-07-25",
+    "updated_at": "2026-07-25",
+    "change_policy": "Update through a reviewed pull request with refreshed validation and evidence artifacts."
+  },
+  "scope": {
+    "product": "alexhraber profile repository",
+    "repository": "https://github.com/alexhraber/alexhraber",
+    "in_scope": [
+      "Decapod 0.82.1 environment metadata",
+      "Managed project specs and governance artifacts",
+      "Containerized decapod validate proof"
+    ],
+    "out_of_scope": [
+      "GitHub merge approval or deployment success",
+      "Claims about Decapod releases other than the measured 0.82.1 run"
+    ]
+  },
+  "methodology": {
+    "falsifiability_standard": "A claim is supported only when the named repository artifacts and bounded command produce the stated result.",
+    "evidence_statuses": [
+      "not_started",
+      "instrumented",
+      "partial",
+      "supported",
+      "falsified",
+      "superseded"
+    ],
+    "measurement_rules": [
+      {
+        "id": "validation-failures",
+        "name": "Validation failure count",
+        "requirement": "The governed validation command exits successfully with zero failed gates.",
+        "unit": "count",
+        "evidence_source": ".decapod/governance/validation.json"
+      }
+    ]
+  },
+  "claims": [
+    {
+      "id": "environment-refresh-enables-validation",
+      "sequence": 1,
+      "title": "Refreshed environment passes governed validation",
+      "statement": "After the Decapod 0.82.1 environment was refreshed and its governed artifacts were included, the repository passed containerized decapod validation with zero failed gates.",
+      "why_it_matters": "Agents need a reproducible environment repair path that makes governance validation actionable across Decapod release changes.",
+      "baseline": {
+        "description": "The pre-refresh worktree lacked current entrypoint fingerprints, managed-spec allowlist rules, and the governed plan artifact.",
+        "population": "The alexhraber repository checkout before the Decapod refresh.",
+        "unit_of_analysis": "One repository validation run.",
+        "protocol": [
+          "Run decapod validate before refreshing the environment.",
+          "Record each failed governance gate and missing artifact."
+        ],
+        "controls": [
+          "Use the protected repository state as the comparison checkout.",
+          "Do not change application source files during the environment comparison."
+        ],
+        "confounders": [
+          "Pre-existing stale local TODO proof state.",
+          "Warnings for unrelated stale workspace and watcher records."
+        ]
+      },
+      "decapod_condition": {
+        "description": "The worktree after Decapod 0.82.1 re-init, managed artifact inclusion, and proof-state refresh.",
+        "population": "The isolated PR worktree for alexhraber/alexhraber#5.",
+        "unit_of_analysis": "One containerized Decapod validation run.",
+        "protocol": [
+          "Run decapod validate in the prepared container workspace.",
+          "Record the pass and failure counts in validation.json.",
+          "Compare the result with the acceptance criteria."
+        ],
+        "controls": [
+          "Use the same repository and Decapod release for the measured run.",
+          "Keep workspaces and local data outside the committed governance artifact set."
+        ],
+        "confounders": [
+          "GitHub Actions may use a different runner image.",
+          "The PR remains subject to remote CI and human review."
+        ]
+      },
+      "failure_modes": [
+        {
+          "id": "validation-gate-failure",
+          "description": "A governance gate fails after the refresh.",
+          "observable_signal": "validation.json reports one or more failed gates or a non-zero command result.",
+          "severity": "high",
+          "falsifier": "A fresh containerized decapod validate run exits non-zero or reports a failed gate."
+        }
+      ],
+      "measurements": [
+        {
+          "id": "failed-gates",
+          "name": "Failed validation gates",
+          "definition": "The number of failed gates reported by the final Decapod validation run.",
+          "unit": "count",
+          "scale": "ratio",
+          "aggregation": "count",
+          "collection_method": "Read the summary from the containerized decapod validate run.",
+          "comparator": "Equal to zero",
+          "success_direction": "lower",
+          "threshold": {
+            "operator": "eq",
+            "value": 0,
+            "unit": "failed gates"
+          }
+        }
+      ],
+      "proof_gate": {
+        "id": "containerized-validation",
+        "required_artifacts": [
+          {
+            "path": ".decapod/governance/validation.json",
+            "kind": "receipt",
+            "required": true,
+            "integrity": "schema",
+            "relationship": "Records the measured validation result."
+          },
+          {
+            "path": ".decapod/governance/trajectory.json",
+            "kind": "trajectory",
+            "required": true,
+            "integrity": "git-tracked",
+            "relationship": "Records the governed run that produced the proof."
+          }
+        ],
+        "required_commands": [
+          {
+            "id": "decapod-validate",
+            "command": "decapod validate",
+            "expected_exit_code": 0,
+            "bounded_seconds": 60,
+            "evidence_artifact": ".decapod/governance/validation.json"
+          }
+        ],
+        "acceptance_criteria": [
+          "The command exits with code 0.",
+          "The validation summary reports zero failed gates.",
+          "The required governance artifacts are present in the PR diff."
+        ],
+        "failure_behavior": "Do not claim the environment refresh is validated; report the failed gate and preserve the evidence for repair."
+      },
+      "open_questions": [
+        {
+          "id": "remote-ci-parity",
+          "question": "Does the GitHub Actions runner reproduce the local containerized validation result?",
+          "decision_impact": "A mismatch would require CI image or bootstrap changes in the upstream Decapod issue.",
+          "owner": "alexhraber",
+          "status": "open"
+        }
+      ],
+      "evidence": {
+        "status": "supported",
+        "summary": "The final containerized validation run reported 188 passed gates and zero failed gates.",
+        "sources": [
+          {
+            "id": "validation-receipt",
+            "kind": "artifact",
+            "ref": ".decapod/governance/validation.json",
+            "description": "Tracked Decapod validation receipt for the refreshed worktree.",
+            "trust": "repo-native"
+          },
+          {
+            "id": "upstream-migration-issue",
+            "kind": "issue",
+            "ref": "https://github.com/DecapodLabs/decapod/issues/1024",
+            "description": "Upstream issue documenting the old-to-new environment migration failure mode.",
+            "trust": "human-authored"
+          },
+          {
+            "id": "entrypoint-contract",
+            "kind": "code",
+            "ref": "AGENTS.md",
+            "description": "Repository contract requiring Decapod validation and governed workspace isolation.",
+            "trust": "repo-native"
+          }
+        ],
+        "observations": [
+          {
+            "id": "validation-188-pass",
+            "observed_at": "2026-07-25",
+            "result": "Containerized decapod validate completed with 188 passed gates and 0 failed gates.",
+            "source_refs": [
+              "validation-receipt"
+            ]
+          }
+        ],
+        "last_evaluated_at": "2026-07-25"
+      },
+      "implementation_links": [
+        {
+          "surface": "documentation",
+          "path": "README.md",
+          "symbol": "tools badges",
+          "relationship": "documents"
+        },
+        {
+          "surface": "governance",
+          "path": ".decapod/config.toml",
+          "symbol": "repo and custody configuration",
+          "relationship": "implements"
+        },
+        {
+          "surface": "validation",
+          "path": ".decapod/governance/validation.json",
+          "symbol": "validation receipt",
+          "relationship": "proves"
+        }
+      ],
+      "non_guarantees": [
+        "This ledger does not prove that GitHub Actions has completed successfully.",
+        "This ledger does not prove that all future Decapod releases will migrate without changes."
+      ]
+    }
+  ],
+  "governance": {
+    "required_claim_fields": [
+      "statement",
+      "baseline",
+      "decapod_condition",
+      "failure_modes",
+      "measurements",
+      "proof_gate",
+      "evidence",
+      "non_guarantees"
+    ],
+    "review_policy": "Review changes to claims, evidence status, or proof gates in a pull request.",
+    "new_capability_rule": "A new capability claim requires a named artifact, bounded command, and falsifier before promotion.",
+    "change_control": {
+      "requires_issue": true,
+      "requires_validation": true,
+      "requires_human_review": true
+    }
+  }
+}

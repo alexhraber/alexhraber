@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Profile README badges and Decapod environment refresh",
+  "intent": "Add the requested infrastructure and delivery badges, refresh the repository's Decapod environment to the current release, and publish a validated pull request.",
+  "state": "APPROVED",
+  "todo_ids": [
+    "cicd_01kyddx4j1yh1gxb"
+  ],
+  "proof_hooks": [
+    "decapod validate"
+  ],
+  "unknowns": [],
+  "human_questions": [],
+  "stop_conditions": [],
+  "unresolved_contradictions": [],
+  "deferred_questions": [],
+  "constraints": {
+    "forbidden_paths": [
+      ".decapod/data",
+      ".decapod/workspaces"
+    ],
+    "file_touch_budget": 20
+  },
+  "phases": [],
+  "updated_at": "1785011861Z"
+}
