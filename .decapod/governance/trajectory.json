@@ -33,6 +33,7 @@
     }
   ],
   "evidence": [
+    "validation epoch ve_48aa5b3a002f963b completed with zero failures",
     "validation epoch ve_b31a52fe1ebf0829 completed with zero failures",
     "validation epoch ve_ca286b857f269266 completed with zero failures"
   ],
@@ -45,7 +46,7 @@
     "shortcut_risk": "supported",
     "completion_proof": "supported"
   },
-  "artifact_hash": "sha256:40720a1f456f09cee3c03d794129301fef3c0100eadf3e59099bc90c298a8050",
+  "artifact_hash": "sha256:3b68f1bc286fbd2e0d2cf8bcf6cf84349d9798ba7b08f7b7a1038d2ced3d5e1c",
   "custody": {
     "schema_version": "1.0.0",
     "intents": {
@@ -99,6 +100,13 @@
       {
         "sequence": 6,
         "event_id": "event:6",
+        "intent_id": "intent:validation_01KYDG23JWVXZ85BV6KQ3PEFNC",
+        "kind": "trajectory_step_recorded",
+        "detail": "trajectory:validation_01KYDG23JWVXZ85BV6KQ3PEFNC"
+      },
+      {
+        "sequence": 7,
+        "event_id": "event:7",
         "intent_id": "intent:validation_01KYDG23JWVXZ85BV6KQ3PEFNC",
         "kind": "trajectory_step_recorded",
         "detail": "trajectory:validation_01KYDG23JWVXZ85BV6KQ3PEFNC"
@@ -166,12 +174,31 @@
             ],
             "validation_findings": [],
             "custody_event_id": "event:6"
+          },
+          {
+            "sequence": 7,
+            "action": "validation",
+            "command": "decapod validate",
+            "scope": [
+              ".decapod/governance/trajectory.json",
+              ".decapod/governance/validation.json"
+            ],
+            "observations": [
+              ".decapod/governance/trajectory.json",
+              ".decapod/governance/validation.json",
+              "validation epoch ve_48aa5b3a002f963b completed with zero failures"
+            ],
+            "proof_refs": [
+              "decapod validate"
+            ],
+            "validation_findings": [],
+            "custody_event_id": "event:7"
           }
         ]
       }
     },
     "summaries": {},
     "knowledge_candidates": [],
-    "next_sequence": 6
+    "next_sequence": 7
   }
 }
