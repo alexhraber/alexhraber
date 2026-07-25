@@ -2,10 +2,10 @@
   "schema_version": "1.0.0",
   "kind": "validation_receipt",
   "decapod_release": "0.82.1",
-  "git_revision": "83ea4c8105555cfad08d63ed2fd14b3240e598b4",
+  "git_revision": "2796c7967c16beabc7368d75b77c85cb283612a1",
   "repo_signal_fingerprint": "6d58a5927f8b226849fe5c4ae94e635f818abb27b09e2deac9edd679432149fd",
   "trajectory_run_id": "validation_01KYDG23JWVXZ85BV6KQ3PEFNC",
-  "trajectory_artifact_hash": "sha256:285c822fd4f1c5974bdaa30749f608eef636b80636388327512d771308399345",
+  "trajectory_artifact_hash": "sha256:40720a1f456f09cee3c03d794129301fef3c0100eadf3e59099bc90c298a8050",
   "validation_epoch": {
     "schema_version": "1.0.0",
     "epoch_id": "ve_ca286b857f269266",
@@ -39,25 +39,25 @@
   "pass_count": 188,
   "fail_count": 0,
   "warn_count": 5,
-  "elapsed_ms": 524,
+  "elapsed_ms": 631,
   "drift_findings": [],
   "temporary_artifacts_cleaned": 1,
   "failures": [],
   "warnings": [
+    "No open pull request found on GitHub for branch 'agent/unknown/cicd-01kyddx4j1yh1gxb'. Create a pull request to submit changes.",
     "Risk map missing (run `decapod riskmap init`)",
     "Spec markdown drift checks are hygiene-only. Use validate_machine_contract for authoritative governance.",
     "Stale workspaces preserved for explicit review: /home/arx/src/alexhraber/.decapod/workspaces/agent-unknown-docs-01kx2ff64bryyp6w-01kx2fff (unregistered_workspace: workspace directory is not registered with git; inspect it and rerun with --force only after preserving any needed files), /home/arx/src/alexhraber/.decapod/workspaces/agent-unknown-cicd-01kyddx4j1yh1gxb-01kyddxa (unregistered_workspace: workspace directory is not registered with git; inspect it and rerun with --force only after preserving any needed files)",
-    "Watcher audit trail missing (run `decapod govern watcher run`)",
-    "Workspace branch 'agent/unknown/cicd-01kyddx4j1yh1gxb' has unpushed commits or does not exist on origin. Run `git push origin agent/unknown/cicd-01kyddx4j1yh1gxb`."
+    "Watcher audit trail missing (run `decapod govern watcher run`)"
   ],
   "gate_timings": [
     {
       "name": "validate_machine_contract",
-      "elapsed_ms": 393
+      "elapsed_ms": 500
     },
     {
       "name": "validate_schema_determinism",
-      "elapsed_ms": 38
+      "elapsed_ms": 37
     },
     {
       "name": "validate_git_workspace_context",
@@ -68,16 +68,16 @@
       "elapsed_ms": 9
     },
     {
-      "name": "validate_markdown_primitives_roundtrip_gate",
-      "elapsed_ms": 5
-    },
-    {
       "name": "validate_git_protected_branch",
-      "elapsed_ms": 5
+      "elapsed_ms": 6
     },
     {
       "name": "validate_git_push_pr_gate",
       "elapsed_ms": 5
+    },
+    {
+      "name": "validate_markdown_primitives_roundtrip_gate",
+      "elapsed_ms": 4
     },
     {
       "name": "validate_federation_gates",
@@ -88,7 +88,7 @@
       "elapsed_ms": 1
     },
     {
-      "name": "validate_plan_governed_execution_gate",
+      "name": "validate_obligations",
       "elapsed_ms": 1
     },
     {
@@ -96,11 +96,7 @@
       "elapsed_ms": 1
     },
     {
-      "name": "validate_obligations",
-      "elapsed_ms": 1
-    },
-    {
-      "name": "validate_control_plane_contract",
+      "name": "validate_plan_governed_execution_gate",
       "elapsed_ms": 1
     },
     {
@@ -108,8 +104,12 @@
       "elapsed_ms": 1
     },
     {
+      "name": "validate_control_plane_contract",
+      "elapsed_ms": 1
+    },
+    {
       "name": "validate_database_schema_versions",
-      "elapsed_ms": 0
+      "elapsed_ms": 1
     },
     {
       "name": "validate_project_specs_docs",
@@ -124,19 +124,15 @@
       "elapsed_ms": 0
     },
     {
-      "name": "validate_heartbeat_invocation_gate",
-      "elapsed_ms": 0
-    },
-    {
-      "name": "validate_risk_map_violations",
-      "elapsed_ms": 0
-    },
-    {
       "name": "validate_canon_mutation",
       "elapsed_ms": 0
     },
     {
-      "name": "validate_entrypoint_invariants",
+      "name": "validate_heartbeat_invocation_gate",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "validate_trajectory_artifacts_if_present",
       "elapsed_ms": 0
     },
     {
@@ -144,7 +140,11 @@
       "elapsed_ms": 0
     },
     {
-      "name": "validate_no_legacy_namespaces",
+      "name": "validate_entrypoint_invariants",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "validate_risk_map_violations",
       "elapsed_ms": 0
     },
     {
@@ -152,7 +152,7 @@
       "elapsed_ms": 0
     },
     {
-      "name": "validate_trajectory_artifacts_if_present",
+      "name": "validate_no_legacy_namespaces",
       "elapsed_ms": 0
     },
     {
@@ -204,35 +204,11 @@
       "elapsed_ms": 0
     },
     {
-      "name": "validate_state_commit_gate",
-      "elapsed_ms": 0
-    },
-    {
-      "name": "validate_health_cache_integrity",
-      "elapsed_ms": 0
-    },
-    {
       "name": "validate_research_claims_if_present",
       "elapsed_ms": 0
     },
     {
-      "name": "validate_policy_integrity",
-      "elapsed_ms": 0
-    },
-    {
-      "name": "validate_context_capsules_if_present",
-      "elapsed_ms": 0
-    },
-    {
-      "name": "validate_archive_integrity",
-      "elapsed_ms": 0
-    },
-    {
-      "name": "validate_knowledge_promotions_if_present",
-      "elapsed_ms": 0
-    },
-    {
-      "name": "validate_risk_map",
+      "name": "validate_state_commit_gate",
       "elapsed_ms": 0
     },
     {
@@ -240,11 +216,7 @@
       "elapsed_ms": 0
     },
     {
-      "name": "validate_interface_contract_bootstrap",
-      "elapsed_ms": 0
-    },
-    {
-      "name": "validate_eval_gate_if_required",
+      "name": "validate_context_capsules_if_present",
       "elapsed_ms": 0
     },
     {
@@ -252,7 +224,35 @@
       "elapsed_ms": 0
     },
     {
+      "name": "validate_knowledge_promotions_if_present",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "validate_policy_integrity",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "validate_health_cache_integrity",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "validate_eval_gate_if_required",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "validate_interface_contract_bootstrap",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "validate_archive_integrity",
+      "elapsed_ms": 0
+    },
+    {
       "name": "validate_coplayer_policy_tightening",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "validate_risk_map",
       "elapsed_ms": 0
     },
     {
@@ -269,16 +269,16 @@
     "result": "review",
     "confidence": "medium",
     "reasons": [
+      "No open pull request found on GitHub for branch 'agent/unknown/cicd-01kyddx4j1yh1gxb'. Create a pull request to submit changes.",
       "Risk map missing (run `decapod riskmap init`)",
       "Spec markdown drift checks are hygiene-only. Use validate_machine_contract for authoritative governance.",
       "Stale workspaces preserved for explicit review: /home/arx/src/alexhraber/.decapod/workspaces/agent-unknown-docs-01kx2ff64bryyp6w-01kx2fff (unregistered_workspace: workspace directory is not registered with git; inspect it and rerun with --force only after preserving any needed files), /home/arx/src/alexhraber/.decapod/workspaces/agent-unknown-cicd-01kyddx4j1yh1gxb-01kyddxa (unregistered_workspace: workspace directory is not registered with git; inspect it and rerun with --force only after preserving any needed files)",
-      "Watcher audit trail missing (run `decapod govern watcher run`)",
-      "Workspace branch 'agent/unknown/cicd-01kyddx4j1yh1gxb' has unpushed commits or does not exist on origin. Run `git push origin agent/unknown/cicd-01kyddx4j1yh1gxb`."
+      "Watcher audit trail missing (run `decapod govern watcher run`)"
     ],
     "recommendations": [
       "Review the reported validation warnings before relying on the CI result.",
       "Use `decapod validate -v --format json` to inspect the affected gate output."
     ]
   },
-  "receipt_hash": "sha256:99b58d44460c61efc138f5179c89c19577778c6869520bb390e4851383bb5e59"
+  "receipt_hash": "sha256:14f362fb1ae4971a180fb28762d995d8aa538b7f4d6c805a5e988f2247753f02"
 }
