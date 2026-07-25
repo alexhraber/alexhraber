@@ -73,7 +73,7 @@
   <img src="https://img.shields.io/badge/-NixOS-5277C3?style=flat&logo=nixos&logoColor=white" />
   <img src="https://img.shields.io/badge/-Postgres-4169E1?style=flat&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=redis&logoColor=white" />
+  <img src="./assets/badges/redis.svg" />
   <img src="https://img.shields.io/badge/-Rust-dca282?style=flat&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" />

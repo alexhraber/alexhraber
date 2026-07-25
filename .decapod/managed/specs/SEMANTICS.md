@@ -75,7 +75,7 @@ stateDiagram-v2
 <!-- decapod:codebase-attestation:start -->
 ## Codebase Attestation
 
-- Repository signal fingerprint: `6d58a5927f8b226849fe5c4ae94e635f818abb27b09e2deac9edd679432149fd`
+- Repository signal fingerprint: `162d727453cca2a95e36ecaf05911b8a2dd782c66ec4b1fa4f670d07b52128d8`
 - Significant implementation surfaces: `.github/` (1 files), `README.md/` (1 files)
 - Refreshed from the current codebase by `decapod specs.refresh`
 <!-- decapod:codebase-attestation:end -->
