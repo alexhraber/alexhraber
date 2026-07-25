@@ -27,3 +27,11 @@
 !.decapod/managed/specs/
 !.decapod/managed/specs/*.md
 !.decapod/managed/specs/.manifest.json
+!.decapod/
+!.decapod/managed/
+!.decapod/managed/specs/
+!.decapod/managed/specs/*.md
+!.decapod/managed/specs/.manifest.json
+!.decapod/governance/
+!.decapod/governance/*.json
+.decapod/governance/workunits/

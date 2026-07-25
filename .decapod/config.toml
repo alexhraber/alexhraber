@@ -1,0 +1,46 @@
+schema_version = "1.0.0"
+
+[init]
+specs = true
+ci = true
+diagram_style = "mermaid"
+entrypoints = [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "GEMINI.md",
+    "CODEX.md",
+]
+
+[repo]
+product_name = "unknown-todo-01kydd-agent-unknown-cicd-01kyddx4j1yh1gxb"
+product_summary = "`background-processing`"
+architecture_direction = "Composable repository architecture with explicit boundaries and proof-backed delivery invariants."
+product_type = "service_or_library"
+done_criteria = "Decapod validate passes, required tests pass, and promotion-relevant artifacts are present."
+base_branch = "master"
+primary_languages = ["python"]
+detected_surfaces = ["python"]
+external_tracker = false
+container_workspaces = true
+mode = "local"
+declared_capabilities = [
+    "background-processing",
+    "infrastructure-management",
+    "public-api",
+]
+
+[governance]
+protected_paths = []
+approval_categories = ["destructive_operations"]
+
+[proof]
+commands = []
+
+[custody]
+isolation = "container"
+
+[tracker]
+provider = "decapod"
+
+[context]
+declared_sources = []

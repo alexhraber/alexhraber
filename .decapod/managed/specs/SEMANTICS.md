@@ -1,0 +1,81 @@
+# Semantics
+
+<!-- decapod:capability-overlay:background-processing:start -->
+
+## Background Processing Semantics Overlay
+
+### Retry Semantics
+- Retry and backoff behavior MUST be selected and documented for each work class
+- Poison-work handling MUST be selected and documented for each work class
+- Retry MUST preserve the declared side-effect and idempotency semantics
+
+### Idempotency
+- Each job MUST declare whether it is idempotent, transactional, compensating, or otherwise duplicate-safe
+- Deduplication or compensation mechanisms are project decisions and require proof
+- Duplicate execution MUST follow the job's declared duplicate-handling semantics
+
+### Poison Message Handling
+- Messages failing after max retries go to dead letter queue
+- DLQ MUST be monitored and alerted
+- Manual replay capability for DLQ messages
+<!-- decapod:capability-overlay:background-processing:end -->
+
+## State Machines
+```mermaid
+stateDiagram-v2
+  [*] --> Draft
+  Draft --> InProgress
+  InProgress --> Verified
+  InProgress --> Blocked
+  Blocked --> InProgress
+  Verified --> [*]
+```
+
+## Invariants
+| Invariant | Type | Validation |
+|---|---|---|
+| No promoted change without proof | System | validation gate |
+| Canonical source-of-truth per entity | Data | interface/spec review |
+| Mutation events are replayable | Data | deterministic replay |
+
+## Event Sourcing Schema
+| Field | Type | Description |
+|---|---|---|
+| event_id | string | globally unique event id |
+| aggregate_id | string | entity/workflow id |
+| event_type | string | semantic transition |
+| payload | object | transition data |
+| recorded_at | timestamp | append time |
+
+## Replay Semantics
+- Replay order:
+- Conflict resolution:
+- Snapshot cadence:
+- Determinism proof strategy:
+
+## Error Code Semantics
+- Namespace:
+- Stable compatibility window:
+- Mapping to retry/degrade behavior:
+
+## Domain Rules
+- Business rule 1:
+- Business rule 2:
+- Business rule 3:
+
+## Idempotency Contracts
+| Operation | Idempotency Key | Duplicate Behavior |
+|---|---|---|
+| create/update mutation | request_id | return original result |
+| async enqueue | event_id | ignore duplicate enqueue |
+
+## Language Note
+- Primary language inferred: python
+
+<!-- decapod:codebase-attestation:start -->
+## Codebase Attestation
+
+- Repository signal fingerprint: `6d58a5927f8b226849fe5c4ae94e635f818abb27b09e2deac9edd679432149fd`
+- Significant implementation surfaces: `.github/` (1 files), `README.md/` (1 files)
+- Refreshed from the current codebase by `decapod specs.refresh`
+<!-- decapod:codebase-attestation:end -->

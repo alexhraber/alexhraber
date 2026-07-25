@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "template_version": "scaffold-v3",
+  "generated_at": "1785011901Z",
+  "repo_signal_fingerprint": "6d58a5927f8b226849fe5c4ae94e635f818abb27b09e2deac9edd679432149fd",
+  "declared_capabilities": [
+    "background-processing",
+    "infrastructure-management",
+    "public-api"
+  ],
+  "capability_definition_version": "1.0.0",
+  "config_input_hash": "7e43170a219d28badf8f5db84388f9a4381fdabe416a4d43fa0985f477558000",
+  "spec_input_hash": "8e17e957e71674a20f6b7be2d16873c232eba5c2d94133d82e788a988f8cf71e",
+  "decapod_release": "0.82.1",
+  "entrypoints": [
+    {
+      "path": "AGENTS.md",
+      "template_hash": "fb0e827ab838c525fa30552fe1d1a057a85c32599d74bda6b1a3d9c2167fc637",
+      "content_hash": "fb0e827ab838c525fa30552fe1d1a057a85c32599d74bda6b1a3d9c2167fc637",
+      "fingerprint": "d0fd2d97e7110240bbac3a83b1d44d7415924f5f69b521b556ce311180cb67b1"
+    },
+    {
+      "path": "CLAUDE.md",
+      "template_hash": "f736f5a17f7f435c562a1f57798d060ff3d8d3fd5b11be70ce93d0a69299babc",
+      "content_hash": "f736f5a17f7f435c562a1f57798d060ff3d8d3fd5b11be70ce93d0a69299babc",
+      "fingerprint": "1da08be69531c675ec1fd3c4f2fc48cf7f6b63e857363a42e1f1f898352e36fc"
+    },
+    {
+      "path": "GEMINI.md",
+      "template_hash": "5a0881df6b5a121523593b2501b149fe1a19e38096cceedd5f3a50138a8f40f4",
+      "content_hash": "5a0881df6b5a121523593b2501b149fe1a19e38096cceedd5f3a50138a8f40f4",
+      "fingerprint": "90cdf59329eb640be87aace50eae6fe73c90e1d2900f0b3adc87390bd19f6fc1"
+    },
+    {
+      "path": "CODEX.md",
+      "template_hash": "1f5efb7b346496c89c9f234048cc6bf3deb4902b58b8790b94b051ff0c2f0f8f",
+      "content_hash": "1f5efb7b346496c89c9f234048cc6bf3deb4902b58b8790b94b051ff0c2f0f8f",
+      "fingerprint": "1addac8a84fe1630113100651a8929b4bf1917f36add1c0a03108be8bd8f4209"
+    }
+  ],
+  "files": [
+    {
+      "path": ".decapod/managed/specs/README.md",
+      "template_hash": "6957cf384fae78bcc966182ee914b88230c0cbaea909b7b406c53bece8bbfe6c",
+      "content_hash": "305ba65b41a83ac5173c66b55088129ecae4019fa9741c5204cf32eacb08edbb",
+      "fingerprint": ""
+    },
+    {
+      "path": ".decapod/managed/specs/INTENT.md",
+      "template_hash": "e6c06430e23ca87ae33169a6b1f9c70a3fd283655f5b5b29755fb83181f989e9",
+      "content_hash": "ca9f9205bbbda50072a9fa5c4cfa824f845807a1bef6b1fd051918bf415dd235",
+      "fingerprint": ""
+    },
+    {
+      "path": ".decapod/managed/specs/ARCHITECTURE.md",
+      "template_hash": "f81224214db72e367670029174b0b69cf21ea2240d14ba936257324f2a9449d7",
+      "content_hash": "5dfafa5ae3d25f586f239bd821f2d205fc6143eb19d4c19dd653dcaaef9b4593",
+      "fingerprint": ""
+    },
+    {
+      "path": ".decapod/managed/specs/INTERFACES.md",
+      "template_hash": "15cc8c3bbfe951da695384106eb78a44c7af28ddc002bcc83c8a7770229fe999",
+      "content_hash": "5c66a401f9e5cd56ef32104dfb8f7b12909da8d79461339784e52ffa3b258346",
+      "fingerprint": ""
+    },
+    {
+      "path": ".decapod/managed/specs/VALIDATION.md",
+      "template_hash": "8e22417cbcbd602159a516e761bdf78173fc4f27bac6d92d91a4ccb968534395",
+      "content_hash": "0492437fd0be5b72351f9150ae37d960274b85cc5d323a5ce9404a112d1af4cc",
+      "fingerprint": ""
+    },
+    {
+      "path": ".decapod/managed/specs/SEMANTICS.md",
+      "template_hash": "3a79850c94b81e29c6462a7ea70d45198252e3eeba2132c6e9206f7b4e4a5829",
+      "content_hash": "6df2ccb6a2b3193a16fb0e88051e51ff23de4278bc8eac66072e2519a5d9f07f",
+      "fingerprint": ""
+    },
+    {
+      "path": ".decapod/managed/specs/OPERATIONS.md",
+      "template_hash": "54ab819ae22bea9f786793a37196749cbacd72c60f58108898e9db044c534acf",
+      "content_hash": "6fe0280e75acca399ae7aa290f40e2b40f59bc296a90aa902a8b53318de13325",
+      "fingerprint": ""
+    },
+    {
+      "path": ".decapod/managed/specs/SECURITY.md",
+      "template_hash": "b283bdc62b7c2fce411becf6b31928d1b3502da28be7ad618531e3e1820fc147",
+      "content_hash": "4fa965de597a74d0e4e2617af831bb0b93649e8dcc21bcadda19395d7f84c1d8",
+      "fingerprint": ""
+    }
+  ]
+}
