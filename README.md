@@ -8,7 +8,7 @@ Tool names come from badge alt text. Separate domains with a middle dot.
 The contact link marked data-profile-resume also appears in the hero.
 -->
 
-<!-- profile:name=Alex Raber -->
+<!-- profile:name=Alex H. Raber -->
 <!-- profile:roles=Founder · Engineer · Architect · Researcher -->
 
 <pre>
