@@ -1,0 +1,58 @@
+name: Sync profile README to Pages
+
+on:
+  push:
+    branches: [master]
+    paths: [README.md]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-profile-readme
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      SYNC_REF: refs/heads/sync-profile-readme
+    steps:
+      - name: Check out the latest profile
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: master
+          path: profile
+          persist-credentials: false
+
+      - name: Check out the Pages repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          repository: alexhraber/alexhraber.github.io
+          ref: master
+          path: pages
+          ssh-key: ${{ secrets.PAGES_README_DEPLOY_KEY }}
+
+      - name: Update the Pages pull request branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          previous_head=$(git -C pages ls-remote origin "$SYNC_REF" | cut -f1)
+          cp profile/README.md pages/README.md
+          git -C pages add -- README.md
+
+          if ! git -C pages diff --cached --quiet; then
+            source_sha=$(git -C profile rev-parse HEAD)
+            git -C pages -c user.name='github-actions[bot]' \
+              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -m 'Sync profile README' -m "Source: alexhraber/alexhraber@$source_sha"
+          elif [[ -z "$previous_head" ]]; then
+            echo 'Pages already has the latest README.'
+            exit 0
+          fi
+
+          if [[ "$(git -C pages rev-parse HEAD)" != "$previous_head" ]]; then
+            git -C pages push --force-with-lease="$SYNC_REF:$previous_head" origin "HEAD:$SYNC_REF"
+          fi
