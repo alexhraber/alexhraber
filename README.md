@@ -1,6 +1,8 @@
 <!--
 The Pages homepage builds from this README. Edit the name and roles below and
 update the marked sections in place. Keep the section and portrait markers.
+Push README edits to master, then merge the sync pull request in
+alexhraber/alexhraber.github.io to publish them.
 Each research item has a link and an optional description inside <small>.
 Tool names come from badge alt text. Separate domains with a middle dot.
 The contact link marked data-profile-resume also appears in the hero.
